@@ -1,3 +1,5 @@
+@import url("fonts.css");
+
 body {
     box-sizing: border-box;
   }
@@ -8,8 +10,6 @@ ul > li {
 
 #lk_Lifestyle {
     margin-right: 121px;
-    margin-left: 313px;
-    
 }
 
 #lk_Photodiary {
@@ -20,16 +20,15 @@ ul > li {
     margin-right: 95px;
 }
 
-#lk_Travel {
-    margin-right: 314px;
-}
-
 nav {
     text-align: center;
     margin-top: 77px;
+    cursor: cell;
 }
 
 .nav_item {
+font-family: 'Playfair Display', serif;
+text-transform: uppercase;
 color: gray;
 text-decoration: none;
 font-size: 14px;
@@ -41,17 +40,17 @@ li > a:hover {
 }
 
 .info_1 {
-    display: inline-block;
-    margin-left: 165px;
+    text-align: center;
+    margin: 0 auto;
+    cursor: cell;
 }
 .sec_main {
     display: inline-block;
+    text-align: left;
     width: 474px;
     height: 479px;
     margin-left: 115px;
-    margin-top: 140px;
-    padding-left: 36px;
-    padding-right: 31px;
+    margin-top: 104px;
 }
 
 .Image_sec {
@@ -61,6 +60,8 @@ li > a:hover {
 }
 
 .Text_sec {
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
     display: inline-block;
     font-size: 14px;
     font-weight: 300;
@@ -69,23 +70,25 @@ li > a:hover {
 }
 
 .Title {
+    font-family: 'Playfair Display', serif;
     font-size: 30px;
     font-weight: 400;
     color: #626262;
 }
 
 .text_sec {
+    font-family: 'Playfair Display', serif;
     color: #626262;
     font-size: 14px;
     font-weight: 400;
 }
 
 .sectionR {
+    text-align: left;
     display: inline-block;
     width: 423px;
     height: 506px;
     margin-top: 75px;
-    margin-right: 148px;
 }
 
 .img_scr {
@@ -93,14 +96,18 @@ li > a:hover {
     height: 277px;
 }
 
-footer > button {
-    display: block;
+footer {
     text-align: center;
+}
+
+footer > button {
+    cursor: no-drop;
+    margin: 0 auto 70px;
     font-size: 20px;
     font-weight: 400;
     border: 1px solid #626262;
     width: 164px;
     height: 60px;
-    background-color: #ddddd7;
-    margin: 54px auto 70px auto;
+    background-color: #ffffff;
+    color: rgb(98, 98, 98);
 }
