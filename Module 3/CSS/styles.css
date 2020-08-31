@@ -101,6 +101,7 @@ footer {
 }
 
 footer > button {
+    font-family: 'Playfair Display', serif;
     cursor: no-drop;
     margin: 0 auto 70px;
     font-size: 20px;
