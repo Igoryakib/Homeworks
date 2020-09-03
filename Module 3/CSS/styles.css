@@ -43,6 +43,7 @@ li > a:hover {
     text-align: center;
     margin: 0 auto;
     cursor: cell;
+    width: 1200px;
 }
 .sec_main {
     display: inline-block;
@@ -103,7 +104,7 @@ footer {
 footer > button {
     font-family: 'Playfair Display', serif;
     cursor: no-drop;
-    margin: 0 auto 70px;
+    margin: 54px auto 70px;
     font-size: 20px;
     font-weight: 400;
     border: 1px solid #626262;
