@@ -81,6 +81,15 @@ img {
     margin-bottom: 46px;
 }
 
+.title_h2_section2::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    margin: 42px auto 0 auto;
+}
+
 .text_section2 {
     font-size: 15px;
     font-weight: 400;
