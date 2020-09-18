@@ -46,10 +46,11 @@
 }
 
 .card::before  {
-    content: url('/Images/Icon_images/ALARM@1X.png');
+    content: '';
     display: block;
     width: 32px;
     height: 32px;
+    background: url(/Images/Icon_images/ALARM@1X.png);
 }
 
 .card1::before {
