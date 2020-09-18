@@ -1,0 +1,138 @@
+.main_site {
+    width: 1137px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 113px;
+    overflow-y: auto;
+}
+
+.title_h3 {
+    font-size: 24px;
+    color: #333333;
+    font-weight: 400;
+    font-family: 'Kaushan Script', cursive;
+    margin-bottom: 22px;
+
+}
+
+.title_h2 {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+    text-transform: uppercase;
+    margin-bottom: 111px;
+}
+
+.title_h2::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    margin: 42px auto 0 auto;
+}
+
+.wrapper_card {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card, .card1, .card2, .card3, .card4, .card5 {
+    display: flex;
+    width: 329px;
+    margin-bottom: 101px;
+}
+
+.card::before  {
+    content: url('/Images/Icon_images/ALARM@1X.png');
+    display: block;
+    width: 32px;
+    height: 32px;
+}
+
+.card1::before {
+    content: url('/Images/Icon_images/LINE\ GRAPH@1X.png');
+    display: block;
+    width: 32px;
+    height: 32px;
+}
+
+.card2::before {
+    content: url('/Images/Icon_images/COMPUTER\ _\ OK@1X.png');
+    display: block;
+    width: 32px;
+    height: 32px;
+}
+
+.card3::before {
+    content: url('/Images/Icon_images/BOOK\ 2@1X.png');
+    display: block;
+    width: 32px;
+    height: 32px;
+}
+
+.card4::before {
+    content: url('/Images/Icon_images/HOME@1X.png');
+    display: block;
+    width: 32px;
+    height: 32px;
+}
+
+.card5::before {
+    content: url('/Images/Icon_images/IMAGE@1X.png');
+    display: block;
+    width: 32px;
+    height: 32px;
+}
+
+.wrapper_text {
+    text-align: left;
+    width: 269px;
+    margin-left: 29px;
+}
+
+.title_div {
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #666666;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+}
+
+.text_div {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #999999;
+    
+}
+
+.title_h2_section2 {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+    text-transform: uppercase;
+    margin-bottom: 46px;
+}
+
+.title_h2_section2::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    margin: 42px auto 0 auto;
+}
+
+.text_section2 {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #999999;
+    margin-bottom: 90px;
+}
+
