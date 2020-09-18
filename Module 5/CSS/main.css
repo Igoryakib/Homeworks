@@ -46,43 +46,42 @@
 }
 
 .card::before  {
-    content: '';
+    content: url('../Images/Icon_images/ALARM@1X.png');
     display: block;
     width: 32px;
     height: 32px;
-    background: url(/Images/Icon_images/ALARM@1X.png);
 }
 
 .card1::before {
-    content: url('/Images/Icon_images/LINE\ GRAPH@1X.png');
+    content: url('../Images/Icon_images/LINEGRAPH@1X.png');
     display: block;
     width: 32px;
     height: 32px;
 }
 
 .card2::before {
-    content: url('/Images/Icon_images/COMPUTER\ _\ OK@1X.png');
+    content: url('../Images/Icon_images/COMPUTER.png');
     display: block;
     width: 32px;
     height: 32px;
 }
 
 .card3::before {
-    content: url('/Images/Icon_images/BOOK\ 2@1X.png');
+    content: url('../Images/Icon_images/BOOK2@1X.png');
     display: block;
     width: 32px;
     height: 32px;
 }
 
 .card4::before {
-    content: url('/Images/Icon_images/HOME@1X.png');
+    content: url('../Images/Icon_images/HOME@1X.png');
     display: block;
     width: 32px;
     height: 32px;
 }
 
 .card5::before {
-    content: url('/Images/Icon_images/IMAGE@1X.png');
+    content: url('../Images/Icon_images/IMAGE@1X.png');
     display: block;
     width: 32px;
     height: 32px;
