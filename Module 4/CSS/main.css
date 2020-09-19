@@ -20,7 +20,7 @@
     font-family: 'Montserrat', sans-serif;
     color: #333333;
     text-transform: uppercase;
-    margin-bottom: 111px;
+    margin-bottom: 66px;
 }
 
 .title_h2::after {
@@ -108,7 +108,7 @@ img {
 .card_section2 {
     width: 380px;
     margin-right: 28px;
-    margin-bottom: 145px;
+    margin-bottom: 82px;
 }
 
 .img_card {
