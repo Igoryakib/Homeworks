@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 auto 128px auto;
+    margin: 40px auto 128px auto;
 }
 
 span {
@@ -19,12 +19,10 @@ span {
     font-size: 30px;
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
-    margin-top: 28px;
 }
 
 .menu {
     width: 490px;
-    margin-top: 40px;
 }
 
 .menu_list {

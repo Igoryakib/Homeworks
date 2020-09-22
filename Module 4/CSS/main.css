@@ -1,5 +1,5 @@
 .main_document {
-    width: 1137px;
+    width: 1200px;
     margin: 0 auto;
     text-align: center;
    
@@ -34,7 +34,7 @@
 
 .div_wrapper {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
