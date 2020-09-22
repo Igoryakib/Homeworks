@@ -1,23 +1,29 @@
 @import url("fonts.css");
 
-body {
-    box-sizing: border-box;
-  }
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header_document {
+    margin: 0 auto;
+    width: 573px;
+}
 
 ul > li {
     display: inline-block;
 }
 
 #lk_Lifestyle {
-    margin-right: 121px;
+    margin-right: 100px;
 }
 
 #lk_Photodiary {
-    margin-right: 103px;
+    margin-right: 100px;
 }
 
 #lk_Music {
-    margin-right: 95px;
+    margin-right: 100px;
 }
 
 nav {
@@ -43,21 +49,20 @@ li > a:hover {
     text-align: center;
     margin: 0 auto;
     cursor: cell;
-    width: 1200px;
+    width: 905px;
 }
 .sec_main {
     display: inline-block;
     text-align: left;
-    width: 474px;
+    width: 420px;
     height: auto;
-    margin-left: 115px;
     margin-top: 104px;
+    margin-right: 57px;
 }
 
 .Image_sec {
     width: 421px;
     height: 279px;
-    overflow: hidden;
 }
 
 .Text_sec {
