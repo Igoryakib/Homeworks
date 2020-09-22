@@ -180,8 +180,8 @@
     transform: translate(-10px, -10px);
     transition: 200ms linear;
     background: linear-gradient(rgba(243, 129, 129, 0.8), rgba(252, 227, 138, 0.8));
-    -webkit-box-shadow: 10px 10px 0px 0px rgba(149,225,211,1);
-    -moz-box-shadow: 10px 10px 0px 0px rgba(149,225,211,1);
+-webkit-box-shadow: 10px 10px 0px 0px rgba(149,225,211,1);
+-moz-box-shadow: 10px 10px 0px 0px rgba(149,225,211,1);
     box-shadow: 10px 10px 0px 0px rgba(149,225,211,1);
 }
 
@@ -224,7 +224,7 @@
 }
 
 .title_name {
-    font-style: 14px;
+    font-size: 14px;
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
