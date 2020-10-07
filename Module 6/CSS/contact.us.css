@@ -1,0 +1,94 @@
+.contactUS {
+    margin: 0 auto;
+    text-align: center;
+    height: 677px;
+    background-color: rgba(37, 37, 37, 1);
+    background-image: url('../Images/world.png.png');
+    background-repeat: no-repeat;
+    background-size: 614px 537px;
+    background-position: top 120px right 0;
+}
+
+.wrapper_card_form {
+    padding-top: 115px;
+    width: 940px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title_contactUS {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 23px;
+}
+
+.subtitle_contactUS {
+    font-size: 16px;
+    font-weight: 400;
+    color: #c7c7c7;
+    text-transform: capitalize;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 75px;
+}
+
+.Form {
+    width: 940px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.Input_form {
+    background-color: #fff;
+    height: 50px;
+    width: 455px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    padding: 20px 20px;
+    display: block;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    border: none;
+}
+
+.Input_form::placeholder {
+    color: rgb(187, 187, 187);
+}
+
+.message {
+    background-color: #fff;
+    width: 455px;
+    height: 210px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    padding: 20px 20px;
+    border-radius: 4px;
+    border: none;
+}
+
+.message::placeholder {
+    color: rgb(187, 187, 187);
+}
+
+.send_button {
+    margin: 0 auto;
+    padding: 25px 47px;
+    background-color: #fed136;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    border-radius: 4px;
+    color: #fff;
+    border: none;
+}
+

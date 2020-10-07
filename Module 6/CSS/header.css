@@ -1,0 +1,48 @@
+.GoldenHeader {
+    margin: 0 auto;
+    width: 100%;
+    position: fixed;
+    background-color: #fff;
+    padding-top: 44px;
+    padding-bottom: 44px;
+}
+
+.Wrapper_header{
+    margin: 0 auto;
+    width: 940px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title_header {
+    font-size: 26px;
+    font-weight: 700;
+    color: #fed136;
+    font-family: 'Dancing Script', cursive;
+    text-transform: capitalize;
+
+}
+
+.Menu_header {
+    width: 480px;
+}
+
+.Menu_list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Menu_item {
+    font-size: 14px;
+    font-weight: 600;
+    color: #222222;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+.Menu_item:hover {
+    color: #fed136;
+}
