@@ -1,0 +1,162 @@
+.wrapper_header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(255, 255, 255, 0)), url('../images/party_mobile.png.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.URLAUBSGLÜCK_header {
+    width: 100%;
+    padding: 1rem 1rem 0 1rem;
+    padding-bottom: 139px;
+}
+
+.wraper_button {
+    margin: 0 auto;
+    width: 190px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 115px;
+    text-align: center;
+}
+
+.wrapperBut_text {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.but_header {
+    background-color: transparent;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+    border: 2px solid transparent;
+    border-radius: 36px;
+    padding: 12px 20px;
+}
+
+.but_header:hover {
+    border: 2px solid #fff;
+    outline: none;
+}
+
+.wrapper_text {
+    text-align: center;
+    margin: 0 auto;
+    width: 280px;
+    
+}
+
+.Subtitle_header {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 38px;
+    text-transform: uppercase;
+}
+
+.Title_dreams {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 19px;
+}
+
+.subtitle_text {
+    margin-bottom: 19px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #fff;
+}
+
+.but_holiday {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    color: #fff;
+    padding: 14px 52px;
+    background-color: #ff4e50;
+    border: none;
+    border-radius: 40px;
+}
+
+/* !!!!!!!!!!!!!!!TABLET!!!!!!!!!!!!!!!! */
+
+@media screen and (min-width: 768px) {
+    .wrapper_header {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(255, 255, 255, 0)), url('../images/party_tablet.png.png');
+    }
+    
+    .URLAUBSGLÜCK_header {
+        padding: 2rem 2rem 0 2rem;
+        padding-bottom: 234px;
+    }
+    
+    .wraper_button {
+        margin: 0;
+    }
+    
+    .wrapperBut_text {
+        margin: 0 auto 152px auto;
+        width: 669px;
+        text-align: center;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .wrapper_text {
+        width: 477px;
+    }
+    
+    .Subtitle_header {
+        margin-bottom: 0;
+    }
+    
+    .Title_dreams {
+        font-size: 45px;
+        margin-bottom: 40px;
+    }
+    
+    .subtitle_text {
+        margin-bottom: 34px;
+        font-size: 24px;
+    }
+    
+    .but_holiday {
+        font-size: 14px;
+        padding: 14px 25px;
+    }
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!DEKSTOP!!!!!!!!!!!!!!!!!!!!!!! */
+
+@media screen and (min-width: 1200px) {
+    .wrapper_header {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(255, 255, 255, 0)), url('../images/party_dekstop.png.png');
+    }
+    
+    .URLAUBSGLÜCK_header {
+        padding: 46px 0 0 0;
+        padding-bottom: 234px;
+    }
+    
+    .wrapperBut_text {
+        width: 939px;
+    }
+    
+    .wrapper_text {
+        width: 503px;
+    }
+
+    .Title_dreams {
+        font-size: 52px;
+    }
+}

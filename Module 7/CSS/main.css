@@ -1,0 +1,107 @@
+.Main_site {
+    width: 100%;
+    padding: 0 1rem 0 1rem;
+}
+
+.MeetPartner {
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+    padding-top: 68px;
+}
+
+.Title_section {
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #333333;
+    margin-bottom: 14px;
+}
+
+.card_partner {
+    margin: 0 auto 28px 0;
+    text-align: center;
+}
+
+.img_icon, .img_icon1, .img_icon2, .img_icon3 {
+    width: 122px;
+    height: 122px;
+    background-image: url('../images/icon_img/boyWithGlasses.png');
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.img_icon1 {
+    background-image: url('../images/icon_img/stealBoy.png');
+}
+
+.img_icon2 {
+    background-image: url('../images/icon_img/happyGirl.png');
+}
+
+.img_icon3 {
+    background-image: url('../images/icon_img/girl_with_sung.png');
+}
+
+.wrapper_icon, .wrapper_icon1, .wrapper_icon2, .wrapper_icon3 {
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    background-color: #ff4e50;
+    border: 3.5px solid #fff;
+    position: absolute;
+    top: 73.77%;
+    left: 73.77%;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper_icon1 {
+    background-color: #ffa507;
+}
+
+.wrapper_icon2 {
+    background-color: #1cd7ad;
+}
+
+.wrapper_icon3 {
+    background-color: #4e73db;
+}
+
+.icon {
+    width: 17px;
+    height: 17px;
+}
+
+.title_card {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #333333;
+    margin-bottom: 16px;
+}
+
+.text_card {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+    line-height: 1.5;
+    padding: 0 48px 0 48px;
+}
+
+.other_partners {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #ff4e50;
+    background-color: transparent;
+    border-radius: 40px;
+    border: 2px solid #ff4e50;
+    padding: 14px 70px;
+    outline: none;
+}
