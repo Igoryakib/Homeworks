@@ -106,7 +106,7 @@
 }
 
 /* !!!!!!!!!!!!!!TABLET!!!!!!!!!!!!!! */
-@media screen and (min-width: 530px) {
+@media screen and (min-width: 768px) {
 
     .Main_site {
         padding: 0 2rem 0 2rem;
@@ -123,7 +123,7 @@
     .wrapper_card {
         margin: 0 auto;
         text-align: center;
-        width: 470px;
+        width: 60vw;
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap-reverse;
