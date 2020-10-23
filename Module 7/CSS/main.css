@@ -18,7 +18,7 @@
     margin-bottom: 14px;
 }
 
-.card_partner {
+.card_partner, .card_partner1, .card_partner2, .card_partner3  {
     margin: 0 auto 28px 0;
     text-align: center;
 }
@@ -103,4 +103,85 @@
     border-radius: 40px;
     border: 2px solid #ff4e50;
     padding: 14px 70px;
+}
+
+/* !!!!!!!!!!!!!!TABLET!!!!!!!!!!!!!! */
+@media screen and (min-width: 530px) {
+
+    .Main_site {
+        padding: 0 2rem 0 2rem;
+    }
+    
+    .MeetPartner {
+        padding-top: 72px;
+    }
+
+    .Title_section {
+        margin-bottom: 30px;
+    }
+    
+    .wrapper_card {
+        margin: 0 auto;
+        text-align: center;
+        width: 470px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap-reverse;
+    }
+
+    .card_partner, .card_partner1, .card_partner2, .card_partner3 {
+        margin: 0 0 58px 0;
+        width: 217px;
+    }
+
+    .card_partner {
+        order: 1;
+    }
+
+    .card_partner2 {
+        order: 2;
+    }
+
+    .text_card {
+        padding: 0;
+    }
+    
+    .other_partners {
+        padding: 14px 30px;
+    }
+}
+
+/* !!!!!!!!!!!!!!!!!!!DEKSTOP!!!!!!!!!!!!!!!!! */
+
+@media screen and (min-width: 1200px) {
+    .Main_site {
+        padding: 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .MeetPartner {
+        padding-top: 70px;
+    }
+    
+    .wrapper_card {
+        width: 914px;
+        flex-wrap: nowrap;
+    }
+    
+    .card_partner {
+        order: 1;
+    }
+
+    .card_partner2 {
+        order: 2;
+    }
+
+    .card_partner1 {
+        order: 3;
+    }
+
+    .card_partner3 {
+        order: 4;
+    }
 }
