@@ -23,6 +23,7 @@
 .subtitle_section {
     font-size: 16px;
     font-weight: 400;
+    font-style: italic;
     color: #c7c7c7;
     text-transform: capitalize;
     font-family: 'Roboto Slab', serif;
