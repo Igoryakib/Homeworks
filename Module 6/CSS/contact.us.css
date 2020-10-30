@@ -1,7 +1,6 @@
 .contactUS {
     margin: 0 auto;
     text-align: center;
-    height: 677px;
     background-color: rgba(37, 37, 37, 1);
     background-image: url('../Images/world.png.png');
     background-repeat: no-repeat;
@@ -42,6 +41,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding-bottom: 115px;
 }
 
 .Input_form {
