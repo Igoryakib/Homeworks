@@ -7,7 +7,7 @@
     padding-bottom: 44px;
 }
 
-.Wrapper_header{
+.Wrapper_header {
     margin: 0 auto;
     width: 940px;
     text-align: center;
@@ -22,7 +22,6 @@
     color: #fed136;
     font-family: 'Dancing Script', cursive;
     text-transform: capitalize;
-
 }
 
 .Menu_header {
